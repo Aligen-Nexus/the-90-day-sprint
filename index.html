@@ -18,19 +18,21 @@
     <meta property="og:title" content="علي سهيل | الذكاء الاصطناعي والهندسة الرقمية في تجربة واحدة">
     <meta property="og:description" content="رحلة احترافية تجمع بين تطوير الويب، تصميم التجارب الرقمية، والذكاء الاصطناعي. أبتكر حلولاً تقنية متقدمة تساعد على بناء مشاريع رقمية عصرية تتميز بالأداء، الابتكار، وقابلية النمو في عالم متسارع التحول.">
     
-    <!-- تم تحديث الروابط هنا -->
-    <meta property="og:image" content="https://i.postimg.cc/4dx3tq3j/ali-Suhail-1.jpg">
-    <meta property="og:image:secure_url" content="https://i.postimg.cc/4dx3tq3j/ali-Suhail-1.jpg">
+    <!-- تم تحديث رابط الصورة هنا -->
+    <meta property="og:image" content="https://i.postimg.cc/3W57LcKY/Ali-Suhail-2.jpg">
+    <meta property="og:image:secure_url" content="https://i.postimg.cc/3W57LcKY/Ali-Suhail-2.jpg">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:image:width" content="1000">
-    <meta property="og:image:height" content="1500">
+    <meta property="og:image:width" content="1200"> <!-- المقاس القياسي للأبعاد الأفقية لمشاركة الروابط -->
+    <meta property="og:image:height" content="630">  <!-- المقاس القياسي للأبعاد الأفقية لمشاركة الروابط -->
     <meta property="og:image:alt" content="Ali Suhail - AI & Digital Solutions Engineer">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="علي سهيل | مهندس الحلول الرقمية والذكاء الاصطناعي">
     <meta name="twitter:description" content="تطوير مواقع إلكترونية متقدمة، تصميم واجهات وتجارب مستخدم احترافية، بناء حلول ذكية مدعومة بالذكاء الاصطناعي، وتحويل الأفكار إلى منتجات رقمية عالية القيمة.">
-    <meta name="twitter:image" content="https://i.postimg.cc/4dx3tq3j/ali-Suhail-1.jpg">
-  
+    <meta name="twitter:image" content="https://i.postimg.cc/3W57LcKY/Ali-Suhail-2.jpg">
+
+
+    
     
     
 
@@ -448,21 +450,202 @@ footer{
 </section>
 
 <!-- FOOTER -->
-<footer>
-  <div class="futuristic-footer">
+<footer class="futuristic-footer">
     <div class="footer-line"></div>
-    <p class="footer-tagline">تمت الهندسة الرقمية والإبداع الفني بواسطة</p>
-    <div class="footer-name">علي سهيل</div>
-    <div class="brand-dev-capsule"><i class="fa-solid fa-bolt"></i> AliGen Nexus</div>
-    <span class="brand-nexus-text">حيث يلتقي الإبداع البشري بقوة الذكاء الاصطناعي</span>
-    <div class="footer-buttons-container">
-      <a href="#" class="agbtn"><i class="fa-solid fa-globe"></i> زيارة موقعي</a>
-      <a href="#" class="agbtn"><i class="fa-solid fa-envelope"></i> تواصل معنا</a>
+    <p class="footer-text">تمت الهندسة الرقمية والإبداع الفني بواسطة</p>
+    <div class="designer-branding">
+        <!-- الاسم كعنوان رئيسي وداخل الكبسولة الأنيقة -->
+        <div class="brand-dev-capsule">علي سهيل</div>
+        <!-- اسم البراند تحته مباشرة كعنوان فرعي ناصع وبدون تبويبة -->
+        <span class="brand-nexus-text">AliGen Nexus</span>
+        
+        <!-- حاوية الأزرار التفاعلية -->
+        <div class="footer-buttons-container">
+            <a href="https://aligen-nex-fduws5fc.manus.space" target="_blank" class="agbtn">
+                <i class="fas fa-globe"></i> زيارة موقعي الإلكتروني
+            </a>
+            <!-- زر الانتقال المباشر لبوابة التواصل -->
+            <a href="https://ali-suhail-cv.netlify.app/#contact" target="_blank" class="agbtn contact-btn">
+                <i class="fas fa-paper-plane"></i> تواصل معنا
+            </a>
+        </div>
+
+        <div class="agmail" id="copyMail">
+            <i class="fas fa-envelope"></i> aligen@alisuhail.com
+        </div>
     </div>
-    <div class="agmail"><i class="fa-solid fa-at"></i> <a href="mailto:ali@alisuhail.com">ali@alisuhail.com</a></div>
-    <div class="copyright">جميع الحقوق محفوظة © علي سهيل | 2026 م • 1447 هـ</div>
-  </div>
+    <p class="footer-copy">جميع الحقوق محفوظة © علي سهيل | 2026 م • 1447 هـ</p>
+
+<style>
+:root {
+    /* ألوان افتراضية متناسقة مع كودك */
+    --gold: #d4a843;
+    --gold-light: #f3d487;
+    --cream: #f4f1ea;
+    --cream-dark: #bfae96;
+}
+
+.futuristic-footer {
+    text-align: center;
+    padding: 40px 20px 30px;
+    position: relative;
+    z-index: 10;
+    background: transparent;
+}
+
+/* خط فاصل علوي متدرج */
+.futuristic-footer .footer-line {
+    width: 250px;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    margin: 0 auto 25px;
+    opacity: 0.6;
+}
+
+/* النص التمهيدي الناعم */
+.futuristic-footer .footer-text {
+    font-size: 0.9rem;
+    color: var(--cream-dark);
+    opacity: 0.75;
+    letter-spacing: 0.5px;
+    margin-bottom: 18px;
+}
+
+/* حاوية الهوية الرقمية مرتبة عمودياً */
+.futuristic-footer .designer-branding {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* الاسم كعنوان رئيسي داخل كبسولة فخمة بتأثير زجاجي ذهبي وعنابي */
+.futuristic-footer .brand-dev-capsule {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--gold-light);
+    background: linear-gradient(135deg, rgba(107,29,58,0.45), rgba(26,92,71,0.35));
+    border: 1px solid var(--gold);
+    padding: 8px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 20px rgba(212,168,67,0.15);
+    text-shadow: 0 0 10px rgba(212,168,67,0.3);
+    transition: all 0.4s ease;
+}
+
+/* تأثير تفاعلي عند تمرير الماوس فوق كبسولة الاسم */
+.futuristic-footer .brand-dev-capsule:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 25px rgba(212,168,67,0.25);
+    background: linear-gradient(135deg, rgba(107,29,58,0.6), rgba(26,92,71,0.5));
+    color: #fff;
+}
+
+/* اسم البراند تحت الاسم مباشرة */
+.futuristic-footer .brand-nexus-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--cream);
+    letter-spacing: 1.5px;
+    opacity: 0.9;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    margin-bottom: 5px;
+}
+
+/* حاوية الأزرار لترتيبها بجانب بعضها */
+.futuristic-footer .footer-buttons-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* التنسيق الأساسي للأزرار (مستوحى من تصميم الـ agbtn الأصلي لديك) */
+.futuristic-footer .agbtn {
+    text-decoration: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 0.9rem;
+    color: var(--cream);
+    border: 1px solid rgba(212,168,67,0.4);
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(5px);
+    padding: 8px 18px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.futuristic-footer .agbtn:hover {
+    border-color: var(--gold);
+    background: rgba(212,168,67,0.1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(212,168,67,0.15);
+}
+
+/* تمييز إضافي لزر التواصل ليعطي شعوراً بالإطلاق والمبادرة */
+.futuristic-footer .contact-btn {
+    border-color: var(--gold);
+    background: linear-gradient(90deg, rgba(212,168,67,0.15), transparent);
+}
+
+.futuristic-footer .contact-btn:hover {
+    background: linear-gradient(90deg, rgba(212,168,67,0.25), rgba(212,168,67,0.05));
+}
+
+/* تنسيق البريد الإلكتروني */
+.futuristic-footer .agmail {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: var(--cream-dark);
+    opacity: 0.8;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+/* سطر الحقوق السفلي النقي */
+.futuristic-footer .footer-copy {
+    font-size: 0.8rem;
+    color: var(--gold);
+    opacity: 0.55;
+    transition: opacity 0.3s ease;
+}
+
+.futuristic-footer .footer-copy:hover {
+    opacity: 0.9;
+}
+
+/* استجابة الهواتف للشاشات الصغيرة */
+@media (max-width: 480px) {
+    .futuristic-footer .brand-dev-capsule {
+        font-size: 1.15rem;
+        padding: 6px 24px;
+    }
+    .futuristic-footer .brand-nexus-text {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+    .futuristic-footer .footer-buttons-container {
+        flex-direction: column;
+        width: 100%;
+        max-width: 260px;
+        gap: 10px;
+    }
+    .futuristic-footer .agbtn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+</style>
+
 </footer>
+  
 
 <script>
 // Particles
